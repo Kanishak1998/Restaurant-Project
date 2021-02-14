@@ -1,0 +1,26 @@
+
+.temp-cart-item{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.9;
+    margin-top: 10px;
+    transition: all 0.8s linear;
+    transform: translate(100%);
+}
+.temp_cart_img{
+    object-fit: cover;
+    height: 70px;
+    width: 50px;
+}
+.temp-cart-item-visible{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 10px;
+    transition: all 0.8s linear;
+    transform: translate(0%);
+}
